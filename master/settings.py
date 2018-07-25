@@ -125,7 +125,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-ALLOWED_HOSTS = ['tranquil-dawn-64750.herokuapp.com']
+ALLOWED_HOSTS = ['lotfitower.herokuapp.com']
 
 STATIC_URL = '/static/'
 
