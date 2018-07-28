@@ -1,67 +1,55 @@
 {% load static %}
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
-
-    <title>Carousel Template for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
-  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/5D11180D-2F62-7347-A12B-7EF10CF3844A/main.js" charset="UTF-8"></script></head>
+    <title>Technology-BBC News</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bbc.css' %}">
   <body>
-
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Carousel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+    <div id="top-bar">
+      <img id="logo" src="images\bbc-logo.png">
+      <div id="signin-div" class="top-bar">
+        <img id="singin-image" src="images\signinimage.jpg">
+        <span id="signin-text">Sign in</span>
+      </div>
+        <div id="bell-div">
+          <img id="border" src="images\border.jpg">
+          <img id="bell" src="images\bell.jpg">
         </div>
-      </nav>
-    </header>
+        <div class="top-bar topbar-section">
+          NEWS
+        </div>
+        <div class="top-bar topbar-section">
+          Sport
+        </div>
+        <div class="top-bar topbar-section">
+          Weather
+        </div>
+        <div class="top-bar topbar-section">
+          Shop
+        </div>
+        <div class="top-bar topbar-section">
+          Earth
+        </div>
+        <div class="top-bar topbar-section">
+          Travel
+        </div>
+        <div class="top-bar topbar-section">
+          More
+          <img id="down" src="images\down.jpg">
+        </div>
+        <div class="top-bar">
+          <input id="search-box" type="text" name="" value="Search">
+          <input type="image" id="glass" src="images\glass2.jpg" alt="">
+        </div>
 {% block content %}
 
 
 {% endblock %}
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-    </main>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="{% static 'js/popper.min.js' %}"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="{% static 'js/jsholder.min.js' %}"></script>
-  </body>
+</div>
+<div class="mysummary">
+  <p>So Happy that I could finish this copy of the BBC website, it was a very challenge first time website challenge
+    I am quite happy about this work, but as you may see the way is still very long to achieve perfection, let keep the journey
+  </p>
+</div>
+</body>
 </html>
